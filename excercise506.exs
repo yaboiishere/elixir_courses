@@ -36,5 +36,8 @@ defmodule Ex do
       "#{el}#{char}"
     end)
   end
+  def ex3(list, int, value) when Enum.count(list)<value, do: value
+
+  
 
 end
